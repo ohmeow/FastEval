@@ -6,7 +6,8 @@ tqdm
 sentencepiece
 protobuf
 xformers
--e git+https://github.com/vllm-project/vllm.git#egg=vllm
+#-e git+https://github.com/vllm-project/vllm.git#egg=vllm
+vllm==0.2.5
 text-generation # for text-generation-inference backend
 
 # benchmarks
